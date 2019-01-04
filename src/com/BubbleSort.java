@@ -9,6 +9,9 @@ while (Arr [x] >= Arr[y]){
 int z = arr[x]
 arr[x] = arr[y]
 arr[y] = int z    
+
+x++;
+y++;
 }
 
 
