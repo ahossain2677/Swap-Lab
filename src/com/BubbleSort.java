@@ -15,3 +15,8 @@ class BubbleSort
                     arr[j+1] = temp;
                 }
     }
+    
+    long time = System.nanoTime();
+    utils.bubbleSort(randIntArr);
+    time = System.nanoTime() - time;
+    System.out.println("Time Taken; " + time);
